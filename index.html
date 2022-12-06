@@ -1,327 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ===== CSS ===== -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <link rel="stylesheet" href="Resume.css">
+</head>
 
-        <link rel="stylesheet" href="assets/css/styles.css" />
-
-        <!-- ===== BOX ICONS ===== -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-            rel="stylesheet"
-        />
-
-        <title>Tushar Upadhyay</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Tushar Upadhyay</a>
-                </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">About</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#skills" class="nav__link">Skills</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#portfolio" class="nav__link">Portfolio</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="bx bx-menu"></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Hi There</span><br />Tushar</h1>
-
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"
-                            ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
-                        >
-                    </div>
-
-                    <img
-                        src="/assets/img/pic.png"
-                        alt=""
-                        class="home__img"
-                    />
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="/assets/img/1230.png" alt="" />
-                    </div>
-
-                    <div>
-                        <h2 class="about__subtitle">I'am Tushar Upadhyay</h2>
-                        <span class="about__profession"
-                            >Frontend Developer</span
-                        >
-                        <p class="about__text">
-                            Hello 👋, my name is Tushar Upadhyay and I am a
-                            Frontend Developer, passionate about building
-                            digital products that improve everyday experience
-                            for people. I love to work on exciting projects that
-                            test what I've learnt, whilst being exposed to the
-                            power and potential of the ever-evolving
-                            technologies around us. I'm always looking for
-                            better, and more importantly, ethical and accessible
-                            ways to solve the common problems we are faced with
-                            day-to-day.
-                        </p>
-
-                        <div class="about__social">
-                            <a
-                                target="_blank"
-                                href="https://www.linkedin.com/in/tushar-upadhyay-54029b135/"
-                                class="about__social-icon"
-                                ><i class="bx bxl-linkedin"></i
-                            ></a>
-                            <a
-                                target="_blank"
-                                href="https://github.com/tushar-upadhya"
-                                class="about__social-icon"
-                                ><i class="bx bxl-github"></i
-                            ></a>
-                            <!-- <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a> -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
-                        <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Core Java</span>
-
-                        <!-- <span class="skills__name">Scss</span> -->
-                        <span class="skills__name">React</span>
-                        <!-- <span class="skills__name">Vue</span> -->
-
-                        <!-- <h3 class="skills__subtitle">Design</h3>
-                        <span class="skills__name">Figma</span>
-                        <span class="skills__name">Adobe XD</span>
-                        <span class="skills__name">Photoshop</span> -->
-                    </div>
-
-                    <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="" />
-                    </div>
-                </div>
-            </section>
-
-            <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <img src="assets/img/work2.jpg" alt="" />
-
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="#"
-                                class="portfolio__link-name"
-                                >coming soon <i class="bx bx-link-external"></i
-                            ></a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work3.jpg" alt="" />
-
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="#"
-                                class="portfolio__link-name"
-                                >movies-overview coming soon<i
-                                    class="bx bx-link-external"
-                                ></i
-                            ></a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__img">
-                        <img src="assets/img/work4.jpg" alt="" />
-
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="#"
-                                class="portfolio__link-name"
-                                >Face-Detection coming soon
-                                <i class="bx bx-link-external"></i
-                            ></a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__img">
-                        <img src="assets/img/work1.jpg" alt="" />
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="https://joke-gen-omega.vercel.app/"
-                                class="portfolio__link-name"
-                                >joke-gen<i class="bx bx-link-external"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__img">
-                        <img src="assets/img/work5.jpg" alt="" />
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="https://planty-in-tushar-upadhya.vercel.app/"
-                                class="portfolio__link-name"
-                                >planty-in<i class="bx bx-link-external"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="assets/img/work6.jpg" alt="" />
-
-                        <div class="portfolio__link">
-                            <a
-                                target="_blank"
-                                href="https://4-4.vercel.app/"
-                                class="portfolio__link-name"
-                                >4 - 4<i class="bx bx-link-external"></i
-                            ></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text"
-                            >upadhyaytushar552@gmail.com</span
-                        >
-
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+91 8979033432</span>
-                    </div>
-
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input
-                                type="text"
-                                placeholder="Name"
-                                class="contact__input"
-                            />
-                            <input
-                                type="mail"
-                                placeholder="Email"
-                                class="contact__input"
-                            />
-                        </div>
-
-                        <textarea
-                            name=""
-                            id=""
-                            cols="0"
-                            rows="10"
-                            class="contact__input"
-                        ></textarea>
-
-                        <input
-                            type="submit"
-                            value="submit"
-                            class="contact__button"
-                        />
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">Tushar Upadhyay</h2>
-                    <p class="footer__text">
-                        I'm Tushar Upadhyay and this is my personal website
-                    </p>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">EXPLORE</h2>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">About</a></li>
-                        <li>
-                            <a href="#skills" class="footer__link">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#Contact" class="footer__link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <a
-                        target="_blank"
-                        href="https://www.facebook.com/profile.php?id=100008185626112"
-                        class="footer__social"
-                        ><i class="bx bxl-facebook"></i
-                    ></a>
-                    <a
-                        target="_blank"
-                        href="https://www.instagram.com/_tusharupadhyay/"
-                        class="footer__social"
-                        ><i class="bx bxl-instagram"></i
-                    ></a>
-                    <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a> -->
-                </div>
+<body>
+  <div class="container">
+    <div class="profile">
+      <div class="profile_container">
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">Tushar Upadhyay</span>
+        
+          </h1>
+          <p class="profile_title">Full Stack Web Developer</p>
+          <div class="ref">
+            <div class="ref_item">
+            <h3 class="title">About Me</h3>
+            
+              <h4 class="ref_name">Developer <span>& Designer</span></h4>
+              <p class="description">Hello 👋, my name is Tushar Upadhyay and I am a Frontend Developer, passionate about building digital products that improve everyday experience for people. I love to work on exciting projects that test what I've learnt, whilst being exposed to the power and potential of the ever-evolving technologies around us. I'm always looking for better, and more importantly, ethical and accessible ways to solve the common problems we are faced with day-to-day.
             </div>
-        </footer>
+            <div class="ref_item">
+                <h4 class="ref_name">Career Objective</h4>
+                <p class="description">
+                  To learn information, technology, and ready to utilize my skills and always best further goals 
+                and professional development skills and ready for smart work for your company. Looking for opportunities to 
+                incorporates my skills and training helps the company grow. 
+                                       </p>
+              </div>
+          </div>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        </div>
+      </div>
+    </div>
+    
+    <div class="edu">
+      <h3 class="title">Education</h3>
+      <div class="edu_item">
+        <p class="item_preTitle">2020</p>
+        <h4 class="item_title"Msc</h4>
+        <p class="item_subtitle">
+          Dau Dayal Institute Of Vocational Education
+        </p>
+      </div>
+      <div class="edu_item">
+        <p class="item_preTitle">2017</p>
+        <h4 class="item_title">Bsc</h4>
+        <p class="item_subtitle">
+          Shree JSGIC college
+        </p>
+      </div>
+    </div>
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">IT Skills</h3>
+        <ul class="skills_list description">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Java Script</li>
+          <li>MS OFFICE</li>
+          <li>JAVA</li>
+          <li>Wordpress</li>
+          <li>Graphic Design</li>
+        </ul>
+      </div>
+    </div>
+    <!----------------------------------------------->
+    <div class="group-2">
+        <div class="skill">
+          <h3 class="title">Internship and Certification</h3>
+          <div class="skills_item">
+            <h4 class="item_title">Newton School (Intern)</h4>
+            <p class="item_subtitle">Full Stack Web development.</p>
+          </div>
+<!--           <div class="skills_item">
+            <h4 class="item_title">Techpile Technology Pvt. Ltd</h4>
+            <p class="item_subtitle">PHP,UI/UX</p>
+        </div> -->
+        <div>
+            <div class="skills_item">
+                <h4 class="item_title">Spoken Tutorial Project at IIT Bombay </h4>
+                <p class="item_subtitle">Programming using C Training</p>
+                <p class="item_subtitle">Introduction to Computers Training</p>
+        </div>
+        <div class="skills_item">
+          <h4 class="item_title">Devtown Bootcamp</h4>
+          <p class="item_subtitle">Front-end Web development Essential</p>
+          <p class="item_subtitle">Developer Student Clubs</p>
+          <p class="item_subtitle">Microsoft Learn Student Ambassador</p>
+  </div>
+  <div class="skills_item">
+    <h4 class="item_title">Youth Power Association (NGO) </h4>
+    <p class="item_subtitle">Web Designing</p>
+</div>
+      </div>
+      </div>
+      </div> 
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">Project</h3>
+        <div class="skills_item">
+          <h4 class="item_title">C Programming Portal</h4>
+          <p class="item_subtitle">Technical Stack- HTML, CSS, C, Bootstrap
+            <a href="http://ggpamethi.in/dp/c/mainPage.html" target="_b" class="social_item">
+              <i data-feather="book"></i>
+              <span>Go to Project</span>
+            </a>
+          </p>
+        </div>
+        <div class="skills_item">
+          <h4 class="item_title">Java Programming Portal </h4>
+          <p class="item_subtitle">Technical Stack- HTML, CSS, Java, Bootstrap
+            <a href="http://ggpamethi.in/dp/java/Project.php" target="_b" class="social_item">
+              <i data-feather="book"></i>
+              <span>Go to Project</span>
+            </a>
+          </p>
+        </div>
+        <div class="skills_item">
+          <h4 class="item_title">CV(Resume)</h4>
+          <p class="item_subtitle">Technical Stack- HTML, CSS
+            <a href="https://html-css-mini-project-fundamentals-of-web-devel-modanwalpriti06.vercel.app/" target="_b" class="social_item">
+              <i data-feather="book"></i>
+              <span>Go to Project</span>
+            </a>
+          </p>
+        </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
-</html>
+      </div>
+    </div>
+    <!---------------------------------------------->
+   
+    <div class="interest">
+      <h3 class="title">Interest</h3>
+      <div class="interest_items">
+        <div class="interest_item">
+          <i data-feather="book"></i>
+          <span>Reading</span>
+        </div>
+        <div class="interest_item">
+          <i data-feather="map"></i>
+          <span>Traveling</span>
+        </div>
+      </div>
+    </div>
+    <div class="details">
+      <div class="personal_details">
+        <h4 class="title">Languages Known</h4>
+        <p class="description">
+         English and Hindi </p>  
+      </div>
+    </div>
+    </div>     
+      
+    
+    <hr>
+<!--     <div class="group-3">
+        <div class="contact">
+          <h3 class="title">Contact Me:</h3>
+          <div class="contact_info">
+            <p class="description">
+            +91 9336347836, +91 8957286685 </p>
+            <a href=">tusharupadhyay691@gmail.com" target="_b" class="social_item">
+              <i data-feather="mail"></i>
+              <span>tusharupadhyay691@gmail.com</span>
+            </a>
+          </div>
+        </div>
+        <div class="social">
+          <h3 class="title">Socials:</h3>
+          <div class="social_items">
+            <a href="https://github.com/ModanwalPriti06/" target="_b" class="social_item">
+              <i data-feather="github"></i>
+              <span>https://github.com/ModanwalPriti06/</span>
+            </a>
+            <a href="https://www.linkedin.com/in/modanwalpriti612/" target="_blank" class="social_item">
+              <i data-feather="linkedin"></i>
+              <span>https://www.linkedin.com/in/modanwalpriti612/</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script>
+      feather.replace()
+    </script>
+  </body>
+  </html>
