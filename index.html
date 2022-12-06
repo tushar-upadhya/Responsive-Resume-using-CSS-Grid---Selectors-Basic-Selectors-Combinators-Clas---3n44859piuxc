@@ -1,96 +1,327 @@
 <!DOCTYPE html>
-<html lang="en">        
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Resume</title>
-        
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+        <!-- ===== CSS ===== -->
+
+        <link rel="stylesheet" href="assets/css/styles.css" />
+
+        <!-- ===== BOX ICONS ===== -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
+        <title>Tushar Upadhyay</title>
     </head>
     <body>
-       <header class="layout">
-        <div class="logo">
-            Image
-        </div>
-        <div class="name">
-            <h1>Name</h1>
-          <div class="meta">
-            Some basic information
-          </div>
-            <div class="self-title">
-                Your profession and a short description of yourself
-            </div>
-        </div>
-    </header>
-    <div class="layout">
-        <div class="expertises">
-            <h2>Areas of Expertises</h2>
-        </div>
-        <div class="expertises">
-            <h2>Additional Skills</h2>
-            <!-- <ul class="description">
-                <li>AWS Solutions Architect Associate</li>
-                <li>Microsoft Azure Fundamentals</li>
-                <li>freecodecamp.com D3.js</li>
-            </ul> -->
-        </div>
-        <div class="work-experiences">
-            <h2>Work Experiences</h2>
-            <div class="title">
-                Title
-            </div>
-            <div class="date">
-                Company
-            </div>
-          <ul class="description">
-            <li>List of Description</li>
-          </ul>
-      </div>
-    </div>
-    <hr />
-    <div class="layout">
-        <div>
-            <h2>Contacts</h2>
-            <a class="email" href="#">E-Mail</a>
-            <hr style="border:0" />
-            <a class="website" href="https://www.example.com/">example</a>
-            <hr style="border:0" />
-            <a class="social-link" href="#" target="_blank">
-                <i class="fab fa-codepen"></i>
-            </a>
-            <a class="social-link" href="#" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-            <a class="social-link" href="#" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="social-link" href="#" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-        </div>
-        <div>
-            <h2>Education</h2>
-            <div class="education">
-                <div class="masters">
-                    <div class="title">Master of Desaster</div>
-                    Witcher<br />
-                    Hogwarts<br />
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Tushar Upadhyay</a>
                 </div>
-                <div class="erasmus">
-                    <div class="title">Exchange</div>
-                    Become Awesome<br />
-                    Somewhere<br />
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">Skills</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">Portfolio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>Hi There</span><br />Tushar</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"
+                            ><i class="bx bx-up-arrow-alt"></i>Scroll down</a
+                        >
+                    </div>
+
+                    <img
+                        src="/assets/img/pic.png"
+                        alt=""
+                        class="home__img"
+                    />
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="/assets/img/1230.png" alt="" />
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Tushar Upadhyay</h2>
+                        <span class="about__profession"
+                            >Frontend Developer</span
+                        >
+                        <p class="about__text">
+                            Hello 👋, my name is Tushar Upadhyay and I am a
+                            Frontend Developer, passionate about building
+                            digital products that improve everyday experience
+                            for people. I love to work on exciting projects that
+                            test what I've learnt, whilst being exposed to the
+                            power and potential of the ever-evolving
+                            technologies around us. I'm always looking for
+                            better, and more importantly, ethical and accessible
+                            ways to solve the common problems we are faced with
+                            day-to-day.
+                        </p>
+
+                        <div class="about__social">
+                            <a
+                                target="_blank"
+                                href="https://www.linkedin.com/in/tushar-upadhyay-54029b135/"
+                                class="about__social-icon"
+                                ><i class="bx bxl-linkedin"></i
+                            ></a>
+                            <a
+                                target="_blank"
+                                href="https://github.com/tushar-upadhya"
+                                class="about__social-icon"
+                                ><i class="bx bxl-github"></i
+                            ></a>
+                            <!-- <a href="#" class="about__social-icon"><i class='bx bxl-dribbble' ></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Core Java</span>
+
+                        <!-- <span class="skills__name">Scss</span> -->
+                        <span class="skills__name">React</span>
+                        <!-- <span class="skills__name">Vue</span> -->
+
+                        <!-- <h3 class="skills__subtitle">Design</h3>
+                        <span class="skills__name">Figma</span>
+                        <span class="skills__name">Adobe XD</span>
+                        <span class="skills__name">Photoshop</span> -->
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="" />
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Portfolio</h2>
+
+                <div class="portfolio__container bd-grid">
+                    <div class="portfolio__img">
+                        <img src="assets/img/work2.jpg" alt="" />
+
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="#"
+                                class="portfolio__link-name"
+                                >coming soon <i class="bx bx-link-external"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work3.jpg" alt="" />
+
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="#"
+                                class="portfolio__link-name"
+                                >movies-overview coming soon<i
+                                    class="bx bx-link-external"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/work4.jpg" alt="" />
+
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="#"
+                                class="portfolio__link-name"
+                                >Face-Detection coming soon
+                                <i class="bx bx-link-external"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/work1.jpg" alt="" />
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="https://joke-gen-omega.vercel.app/"
+                                class="portfolio__link-name"
+                                >joke-gen<i class="bx bx-link-external"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__img">
+                        <img src="assets/img/work5.jpg" alt="" />
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="https://planty-in-tushar-upadhya.vercel.app/"
+                                class="portfolio__link-name"
+                                >planty-in<i class="bx bx-link-external"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio__img">
+                        <img src="assets/img/work6.jpg" alt="" />
+
+                        <div class="portfolio__link">
+                            <a
+                                target="_blank"
+                                href="https://4-4.vercel.app/"
+                                class="portfolio__link-name"
+                                >4 - 4<i class="bx bx-link-external"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text"
+                            >upadhyaytushar552@gmail.com</span
+                        >
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 8979033432</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input
+                                type="text"
+                                placeholder="Name"
+                                class="contact__input"
+                            />
+                            <input
+                                type="mail"
+                                placeholder="Email"
+                                class="contact__input"
+                            />
+                        </div>
+
+                        <textarea
+                            name=""
+                            id=""
+                            cols="0"
+                            rows="10"
+                            class="contact__input"
+                        ></textarea>
+
+                        <input
+                            type="submit"
+                            value="submit"
+                            class="contact__button"
+                        />
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Tushar Upadhyay</h2>
+                    <p class="footer__text">
+                        I'm Tushar Upadhyay and this is my personal website
+                    </p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#Contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a
+                        target="_blank"
+                        href="https://www.facebook.com/profile.php?id=100008185626112"
+                        class="footer__social"
+                        ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <a
+                        target="_blank"
+                        href="https://www.instagram.com/_tusharupadhyay/"
+                        class="footer__social"
+                        ><i class="bx bxl-instagram"></i
+                    ></a>
+                    <!-- <a href="#" class="footer__social"><i class='bx bxl-twitter' ></i></a> -->
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
     </body>
-</html> 
+</html>
